@@ -79,6 +79,7 @@ ggplot(Whickham, aes(x = age)) +
 ggplot(data=Whickham, aes(x=smoker, y=outcome, color=outcome)) + geom_bar(stat="identity")
 
 ```
+answer 4:If the smoker dose not quit smoking, this may cause sudden death .
 
 Knit, commit, and push to github.
 
@@ -90,6 +91,7 @@ Whickham %>%
  502+230
  230/732
 ```
+answer 5:Exposure of non-smokers to cigarette smoke leads to more dathes than the smoker himself 
 
 6.
 
